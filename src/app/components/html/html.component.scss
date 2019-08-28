@@ -1,0 +1,22 @@
+.selectedSelector {
+    background: #fff5c4;
+    border: 2px solid #ffd400;
+    padding: 10px;
+    width: 50%;
+}
+
+table {
+    border-collapse: separate;
+    tr:first-child td {
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 250px;
+    }
+    td {
+        background: #f1f1f1
+    }
+}
+
+p {
+    margin-bottom: unset;
+}

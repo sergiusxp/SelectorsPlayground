@@ -1,0 +1,3 @@
+<ul>
+    <li *ngFor="let s of selectors; let i = index" (click)="selSelector(s)" class="option" [ngClass]="{ 'active': lastSelected == s }">{{ s }}</li>
+</ul>
