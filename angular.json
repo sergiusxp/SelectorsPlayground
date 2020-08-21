@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "selectors-playground"
+    }
+  },
+  "defaultProject": "selectors-playground",
+  "cli": {
+    "analytics": false
+  }
 }
